@@ -7,12 +7,12 @@
   },
   "rewrites": [
     {
-      "source": "/api/comments",
-      "destination": "/api/comments/index"
+      "source": "api/comments",
+      "destination": "api/comments/index"
     },
     {
-      "source": "/api/comments/:id",
-      "destination": "/api/comments/[id]"
+      "source": "api/comments/:id",
+      "destination": "api/comments/[id]"
     }
   ]
 }
