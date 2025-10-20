@@ -534,7 +534,7 @@ noscript {
 
 .dp::after,
 .dp::before {
-    height: 300px;
+    height: 325px;
     z-index: -2;
     content: ""
 }
@@ -977,7 +977,7 @@ noscript {
 .dp img,
 .dp::after,
 .dp::before {
-    width: 300px
+    width: 250px
 }
 
 .projects-heading-article,
@@ -2005,7 +2005,7 @@ footer {
     }
 
     .dp img {
-        width: 200px
+        width: 100px
     }
 
     .two-words {
