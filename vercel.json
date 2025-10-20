@@ -1,18 +1,18 @@
 {
   "functions": {
-    "api/**/*.js": {
+    "api/comments/*.js": {
       "memory": 1024,
       "maxDuration": 10
     }
   },
   "rewrites": [
     {
-      "source": "api/comments",
-      "destination": "api/comments/index"
+      "source": "/api/comments",
+      "destination": "/api/comments/index.js"
     },
     {
-      "source": "api/comments/:id",
-      "destination": "api/comments/[id]"
+      "source": "/api/comments/:id",
+      "destination": "/api/comments/[id].js"
     }
   ]
 }
